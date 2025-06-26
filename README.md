@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ```
 player-tracking-system/
-├── main.py                 # Main tracking script
+├── app.py                 # Main tracking script
 ├── requirements.txt        # Python dependencies
 ├── base.pt                # YOLOv11 model file
 ├── 15sec_input_720p.mp4   # Input video file
@@ -49,8 +49,8 @@ player-tracking-system/
 
 ### Step 1: Clone or Download the Project
 ```bash
-git clone <your-repository-url>
-cd player-tracking-system
+git clone  https://github.com/YujiItaori/Player-tracking-system.git
+cd Player-tracking-system
 ```
 
 ### Step 2: Install Dependencies
@@ -60,12 +60,12 @@ pip install -r requirements.txt
 
 ### Step 3: Prepare Required Files
 Ensure you have the following files in your project directory:
-- `base.pt` - Your fine-tuned YOLOv11 model
-- `15sec_input_720p.mp4` - Input video file
+- `base.pt` - Your fine-tuned YOLOv11 model and you can find it here https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view
+- `input_video.mp4` - Input video file
 
 ### Step 4: Run the Tracking System
 ```bash
-python main.py
+python app.py
 ```
 
 ### Step 5: View Results
@@ -75,7 +75,7 @@ The processed video with tracking information will be saved as `output_video.mp4
 
 ### Basic Usage
 ```python
-python main.py
+python app.py
 ```
 
 ### Configuration Options
@@ -113,8 +113,8 @@ The system provides real-time feedback showing:
 
 ### Changing Input/Output Files
 ```python
-input_path = "your_input_video.mp4"
-output_path = "your_output_video.mp4"
+input_path = "input_video.mp4"
+output_path = "output_video.mp4"
 ```
 
 ### Adjusting Detection Classes
