@@ -4,6 +4,11 @@
 
 This project implements a real-time player tracking system for sports videos using YOLOv11 for object detection and DeepSORT for multi-object tracking. The system can detect and track multiple players across video frames, assigning unique IDs to each player and maintaining their identity throughout the video sequence.
 
+![Screenshot 2025-06-26 122614](https://github.com/user-attachments/assets/a37defe3-9a48-48e1-9232-727778705d8c)
+![Screenshot 2025-06-26 122614](https://github.com/user-attachments/assets/a37defe3-9a48-48e1-9232-727778705d8c)
+
+
+
 ## 🎯 Features
 
 - **Real-time Player Detection**: Uses YOLOv11 model for accurate player detection
