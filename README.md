@@ -208,7 +208,9 @@ For issues and questions:
 ---
 
 ⭐ Star this repository if you find it helpful! ⭐
-"The art of tracking is not just about following movement, but about understanding the story that unfolds through motion." - Custom quote about tracking systems
+
+"We can only see a short distance ahead, but we can see plenty there that needs to be done." - 
+Alan Turing
 
 ---
 
