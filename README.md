@@ -207,4 +207,9 @@ For issues and questions:
 
 ---
 
+⭐ Star this repository if you find it helpful! ⭐
+"The art of tracking is not just about following movement, but about understanding the story that unfolds through motion." - Custom quote about tracking systems
+
+---
+
 **Note**: This system is designed for sports video analysis and player tracking applications. Performance may vary based on video quality, lighting conditions, and player visibility.
